@@ -3,8 +3,13 @@
 }
 body{
     /*background-color: bisque;*/
+    margin: 30px;
+    box-sizing: border-box;
+    background-image: url(/tak-/a697fedf97cefc0912a3c5db68bafda8.jpg);
+    background-repeat:unset;
+    
 }
-.header{
+.header{    
     height: 150px;
     padding-left: 30px;
     flex-direction: row;
@@ -15,9 +20,7 @@ body{
     background-image: url(https://picsum.photos/id/123/1300/150); /* istersen acarsın */
     transform-style:preserve-3d;
 }
-.back{
-    
-}
+
 .title{
 
 font-size: 22px;
@@ -69,12 +72,66 @@ font-size: 22px;
     margin-top: 10px;
     margin-right: 10px;
 }
+.selection ul{
+    margin-bottom: 25%;
+}
+.selection ul li{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    list-style-type: none;
+    margin-left: 18%;
+    margin-bottom: 1%;
+}
+.selection ul li:hover{
+    background-color: greenyellow;
+}
 .picmenu{
-    width: 66%;
+    width: 1300px;
     background-color: lightcoral;
-    background-image: url(https://picsum.photos/id/50/600/300);
+    background-image: url(https://picsum.photos/id/50/1300/300);
+    background-repeat:no-repeat ;   
     margin-top:10px;
     margin-left: 1%;
+}
+.section .products{
+    background-color: darkorange;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+}
+.section .products img{
+    width: 60%;
+    padding-top: 5px;
+    padding-left: 100px;
+    
+}
+.section .products h4{
+    opacity: 0.75;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.section .products h4 a{
+    text-decoration: none;
+
+}
+.section .products h4:hover{
+    background-color: cyan;
+    border-radius: 25px;
+    opacity: 1;
+}
+.section .products p{
+    opacity: 0.75;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
 }
 .footer  {
     display: flex;
@@ -82,20 +139,27 @@ font-size: 22px;
     margin-top: 20px;
     padding:20px;
     background-color: lightgreen;
+    text-align: center;
+    opacity: 0.75;
 }
 .box1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    display: inline;
+    padding: 10px;
+    margin-left: 40%;
 }
-
+.footer .box1 .a{
+    padding: 10px;
+    text-decoration: none;
+}
+.footer .box1 .a i{
+    padding: 10px;;
+}
 .h2{
  text-align: center;
  font-size: 40px;
  opacity: 0.8;
 }
-.a{
-    text-decoration: none;
-    padding-left: 10px;
-    margin-top: 15px;
-}
+
